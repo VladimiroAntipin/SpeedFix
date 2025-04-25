@@ -1,0 +1,13 @@
+.footer__logo {
+    width: 150px;
+}
+
+.footer__logo>img {
+    width: 100%;
+}
+
+@media screen and (max-width:1000px) {
+    .footer__logo {
+        margin: auto;
+    }
+}

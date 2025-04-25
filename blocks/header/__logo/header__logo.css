@@ -1,0 +1,29 @@
+.header__logo {
+    display: flex;
+    align-items: center;
+    width: 256px;
+    height: 58px;
+    transition: all 0.2s linear;
+}
+
+@media screen and (max-width:1090px) {
+    .header__logo {
+        justify-content: center;
+    }
+}
+
+.header__logo:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.header__logo > img {
+    width: 154px;
+}
+
+@media screen and (max-width:1090px) {
+    .header__logo > img {
+        width: 120px;
+    }
+}

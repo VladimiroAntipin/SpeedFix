@@ -1,0 +1,18 @@
+.footer__info {
+    align-self: center;
+    justify-self: center;
+    color: rgb(155, 145, 135);
+    transition: all 0.2s linear;
+}
+
+.footer__info:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+@media screen and (max-width:680px) {
+    .footer__info > p {
+       margin: 0;
+    }
+}

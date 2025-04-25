@@ -1,0 +1,21 @@
+.booking__submit {
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(26, 26, 26);
+    transition: all 0.2s linear;
+}
+
+.booking__submit:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.booking__submit:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }

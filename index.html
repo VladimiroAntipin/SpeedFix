@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>SpeedFix Auto Care</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo">
+                <img src="./images/logo.svg" alt="logo">
+            </div>
+
+            <div class="header__nav">
+                <a class="header__nav-item" href="#">Services</a>
+                <a class="header__nav-item" href="#">Benefits</a>
+                <a class="header__nav-item" href="#">Book now</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="services">
+        <div class="services__content">
+            <h1 class="services__title">Speed<span>Fix</span><br> Auto Care</h1>
+
+            <h2 class="services__list-title">Our Auto Services</h2>
+            <ul class="services__list">
+                <li class="services__list-item">
+                    <img src="./images/tick.png" alt="tick" />
+                    <p>Oil Changes & Fluid Checks</p>
+                </li>
+                <li class="services__list-item">
+                    <img src="./images/tick.png" alt="tick" />
+                    <p>Brake Inspections & Repairs</p>
+                </li>
+                <li class="services__list-item">
+                    <img src="./images/tick.png" alt="tick" />
+                    <p>Engine Diagnostics</p>
+                </li>
+            </ul>
+
+            <button class="services__button">Get started</button>
+        </div>
+
+        <div class="services__image">
+            <img src="./images/banner.jpg" alt="car">
+        </div>
+    </section>
+
+
+    <section class="benefits">
+        <div class="benefits__image">
+            <img src="./images/lamborghini.jpg" alt="lamborghini" />
+        </div>
+
+        <div class="benefits__content">
+            <ul class="benefits__list">
+                <li class="benefits__list-item">
+                    <img src="./images/icon.png" alt="icon" />
+                    <p>Certified mechanics with 10+ years of experience</p>
+                </li>
+                <div class="benefits__line"></div>
+                <li class="benefits__list-item">
+                    <img src="./images/icon.png" alt="icon" />
+                    <p>Honest pricing - no hidden fees</p>
+                </li>
+                <div class="benefits__line"></div>
+                <li class="benefits__list-item">
+                    <img src="./images/icon.png" alt="icon" />
+                    <p>Fast turnaround - more repairs done same day </p>
+                </li>
+                <div class="benefits__line"></div>
+                <li class="benefits__list-item">
+                    <img src="./images/icon.png" alt="icon" />
+                    <p>Customer satisfaction guaranteed</p>
+                </li>
+            </ul>
+
+            <button class="benefits__button">Book an appointment today!</button>
+        </div>
+
+        <div class="benefits__image">
+            <img src="./images/bentley.jpg" alt="bentley" />
+        </div>
+    </section>
+
+    <section class="booking">
+        <form class="booking__form" id="form">
+            <div class="booking__inputs">
+                <h2 class="booking__form-title">Book an appointment</h2>
+
+                <input class="booking__input" type="text" placeholder="Name" id="name"></input>
+                <span class="booking__input-error" id="name-error"></span>
+
+                <input class="booking__input" type="email" placeholder="Email" id="email"></input>
+                <span class="booking__input-error" id="email-error"></span>
+
+                <div class="booking__checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <p>I accept Privacy policy</p>
+                </div>
+
+                <button type="submit" id="submit" disabled class="booking__submit">Submit</button>
+            </div>
+
+            <div class="booking__image">
+                <img src="./images/car-mechanic.png" alt="img" />
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__links">
+            <a href="#">Services</a>
+            <a href="#">Benefits</a>
+            <a href="#">Book now</a>
+        </div>
+
+        <div class="footer__content">
+            <div class="footer__grid">
+                <div class="footer__logo">
+                    <img src="./images/logo.svg" alt="logo" />
+                </div>
+
+                <div class="footer__social">
+                    <img src="./images/IG.svg" alt="ig" />
+                    <img src="./images/tiktok.svg" alt="tt" />
+                    <img src="./images/linkedin.svg" alt="ld" />
+                    <img src="./images/fb.svg" alt="fb" />
+                    <img src="./images/tg.svg" alt="tg" />
+                    <img src="./images/yt.svg" alt="yt" />
+                </div>
+
+                <div class="footer__button">
+                    <button>Book now</button>
+                </div>
+
+                <div class="footer__credits">
+                    <p>© 2025, Copyright</p>
+                </div>
+
+                <div class="footer__info">
+                    <p>Privacy policy</p>
+                </div>
+
+                <div class="footer__info">
+                    <p>Terms of use</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>

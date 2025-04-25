@@ -1,0 +1,14 @@
+.header__nav {
+    display: flex;
+    align-items: center;
+    width: 55%;
+    gap: 29px;
+}
+
+@media screen and (max-width: 1090px) {
+    .header__nav {
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 0;
+    }
+}

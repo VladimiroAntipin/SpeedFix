@@ -1,0 +1,18 @@
+.benefits {
+    width: 100%;
+    max-height: 480px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 750px) {
+    .benefits {
+        max-height: unset;
+        flex-direction: column;
+        margin-top: 0px;
+        align-items: center;
+    }
+  }

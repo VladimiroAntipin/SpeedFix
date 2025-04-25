@@ -1,0 +1,10 @@
+.services__list-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.services__list-item>img {
+    width: 39px;
+    height: 37px;
+}

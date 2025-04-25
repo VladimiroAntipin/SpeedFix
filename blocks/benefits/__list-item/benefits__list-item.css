@@ -1,0 +1,27 @@
+.benefits__list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.benefits__list-item > img {
+    width: 38px;
+    height: 31px;
+}
+
+@media screen and (max-width: 750px) {
+    .benefits__list-item > img {
+        display: none;
+    }
+  }
+
+.benefits__list-item > p {
+    margin: 0;
+}
+
+@media screen and (max-width: 1210px) {
+    .benefits__list-item > p {
+        font-size: 12px;
+    } 
+}

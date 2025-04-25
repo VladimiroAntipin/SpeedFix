@@ -1,0 +1,22 @@
+.services__content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 130px;
+    width: 50%;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1090px) {
+    .services__content {
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .services__content {
+        width: 100%;
+        padding-left: 0;
+        align-items: center;
+
+    }
+}

@@ -1,0 +1,14 @@
+.services__title {
+    font-size: 50px;
+    margin-top: 130px;
+}
+
+@media screen and (max-width: 1090px) {
+    .services__title {
+        margin-top: 180px;
+    }
+}
+
+.services__title>span {
+    color: red;
+}

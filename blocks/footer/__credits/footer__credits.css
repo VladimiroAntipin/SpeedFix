@@ -1,0 +1,15 @@
+.footer__credits {
+    font-size: 12px;
+}
+
+@media screen and (max-width:680px) {
+    .footer__credits > p {
+       margin: 0;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .footer__credits {
+        margin: auto;
+    }
+}

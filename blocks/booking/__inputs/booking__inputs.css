@@ -1,0 +1,21 @@
+.booking__inputs {
+    padding: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media screen and (max-width:1250px) {
+    .booking__inputs {
+        width: 40%;
+    } 
+}
+
+@media screen and (max-width:1000px) {
+    .booking__inputs {
+        width: 90%;
+    } 
+}

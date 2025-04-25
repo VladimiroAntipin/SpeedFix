@@ -1,0 +1,18 @@
+.services__button {
+    width: 40%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+    transition: all 0.2s linear;
+    background-color: white;
+    font-weight: bold;
+}
+
+.services__button:hover {
+    background-color: red;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    transform: scale(1.1);
+}

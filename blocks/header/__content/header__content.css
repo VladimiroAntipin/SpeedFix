@@ -1,0 +1,20 @@
+.header__content {
+    width: 40%;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 30px 20px 130px;
+}
+
+@media screen and (max-width: 1090px) {
+    .header__content {
+        width: 100%;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        gap: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
